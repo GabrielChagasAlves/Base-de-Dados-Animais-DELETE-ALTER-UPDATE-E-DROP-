@@ -23,6 +23,43 @@
 
 ## Remova todos os animais que pesam mais que 200 quilogramas:
 #### delete from animais where peso > 50
-![Uploading Remova todos os animais que pesam mais que 200 quilogramas..PNG…]()
+![Remova todos os animais que pesam mais que 200 quilogramas](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/a1e4653a-9137-4abc-b365-98e8c801ad43)
+### Aqui fizemos a exclusao de animais com um devido peso
 
+## Remova todos os animais que o nome inicie com a letra ‘C’:
+#### delet from where nome like '&C'
+![Remova todos os animais que o nome inicie com a letra ‘C’](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/18947f7a-27b7-4691-afaa-d81ca11d54ad)
+#### Assim como os animais com os pesos, aqui fizemos a esxlusao de animais que começavam com uma letra especifica
+
+## Remova o campo cor dos animais:
+#### alter table animais drop cor 
+![Remova o campo cor dos animais;](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/97ef3a05-561a-405b-a4b6-4edba043e425)
+### Nesse caso fizemos a exclusao de uma coluna da tabela 
+
+## Aumente o tamanho do campo nome dos animais para 80 caracteres:
+#### alter table animais modify colunm nome varchar (80)
+![Aumente o tamanho do campo nome dos animais para 80 caracteres;](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/07ab667b-9b23-4b86-bd2b-5f464356711d)
+### nesse caso fizemos a alteração da quantidade de caracteres da coluna nome da tabela animais 
+
+## Remova todos os gatos e cachorros:
+#### delete from aniamais drop especie like 'gato'
+![Remova todos os gatos e cachorros](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/96858493-a3a4-4cfa-8a9e-a8b2f25a4253)
+### Nesse caso fizemos a exlusao de todos gatos e cachorros, porem na tabela animais, não constava a especie cachorro cadastrada 
+
+## Remova o campo data de nascimento dos animais:
+#### alter table animais drop nasc
+![Remova o campo data de nascimento dos animais](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/5b3105ff-352e-4420-895e-f41599bda495)
+### Aqui fizemos a exclusao das datas de nascimento dos animais 
+
+## Remova todos os animais:
+#### alter table drop animais 
+![Remova todos os animais](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/77870683-308b-4258-b6c3-7f81b4674f9b)
+#### Nesse penultimo caso estamos finalizando a limpesa da tabela, sendo assim começamos a exclusao dos animais cadastrados
+
+## Remova a tabela especies:
+#### alter table animais drop especies 
+![Remova a tabela especies](https://github.com/GabrielChagasAlves/Base-de-Dados-Animais-DELETE-ALTER-UPDATE-E-DROP-/assets/125607847/9d2f188d-bc6c-4553-9bb7-075e2ce5bd43)
+### Para finalizar fizemos a exclusao da acoluna especie da tabela 
+
+# Muito obrigado!
 
